@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/qingtian/static/css/main.8dd9b077.chunk.css",
+    "main.js": "/qingtian/static/js/main.81c3c55f.chunk.js",
+    "main.js.map": "/qingtian/static/js/main.81c3c55f.chunk.js.map",
+    "runtime-main.js": "/qingtian/static/js/runtime-main.f2726db6.js",
+    "runtime-main.js.map": "/qingtian/static/js/runtime-main.f2726db6.js.map",
+    "static/js/2.51378017.chunk.js": "/qingtian/static/js/2.51378017.chunk.js",
+    "static/js/2.51378017.chunk.js.map": "/qingtian/static/js/2.51378017.chunk.js.map",
+    "index.html": "/qingtian/index.html",
+    "precache-manifest.966df23454f7222afed651a8e2cbf78d.js": "/qingtian/precache-manifest.966df23454f7222afed651a8e2cbf78d.js",
+    "service-worker.js": "/qingtian/service-worker.js",
+    "static/css/main.8dd9b077.chunk.css.map": "/qingtian/static/css/main.8dd9b077.chunk.css.map",
+    "static/js/2.51378017.chunk.js.LICENSE.txt": "/qingtian/static/js/2.51378017.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f2726db6.js",
+    "static/js/2.51378017.chunk.js",
+    "static/css/main.8dd9b077.chunk.css",
+    "static/js/main.81c3c55f.chunk.js"
+  ]
+}

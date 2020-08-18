@@ -1,0 +1,33 @@
+{
+  "name": "qingtian",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://objtube.gitee.io/qingtian",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bricks.js": "^1.8.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
