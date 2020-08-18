@@ -1,3 +1,8 @@
+/**
+ * 这个文件的代码是为了获取所有评论内容，然后保存在一个json文件里。
+ * 这样网页端就可以实现搜索评论的功能。
+ * 但发现只能查前1000个评论内容和后1000个，中间的都返回空数组，暂时还没有解决。
+ */
 const Axios = require("axios");
 const fs = require("fs");
 
@@ -13,10 +18,8 @@ function getData(limit = 50, offset, before) {
     },
   }).then((res) => res.data);
 }
-// getData(20, TOTAL - 2027000).then((data) => console.log(data));
 
 let times = TOTAL / 50;
-// let times = 2;
 const commentMap = {};
 let page = 1;
 async function recursive(before) {
@@ -50,8 +53,6 @@ async function recursive(before) {
     console.log(error);
   }
   page++;
-  //   setTimeout(async () => {
   await recursive(_before);
-  //   }, 1000);
 }
 recursive();
